@@ -8,17 +8,31 @@ html body {
     background-size: cover;
 }
 
+/* header {
+
+} */
+
 h1 {
     font-family: 'Permanent Marker', cursive;    
     color:#192b1c;
     font-size: 100px;
-    text-align: center;
+    text-align: left;
+    margin-left: 40px;
+    
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;    
+    color:#192b1c;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 40px;
 }
 
 hr {
     border-color: #105819;
     border-width: 3px;
-    max-width: 850px;         
+    max-width: 850px;     
 }
 
 .buffer {
@@ -26,7 +40,7 @@ hr {
   }
 
 nav {
-    text-align: right;
+    text-align: center;
     padding: 40px;
 }
 
