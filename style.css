@@ -10,7 +10,7 @@ html body {
 
 h1 {
     font-family: 'Permanent Marker', cursive;    
-    color:#105819;
+    color:#192b1c;
     font-size: 100px;
     text-align: center;
 }
@@ -37,4 +37,9 @@ nav li {
     display: inline-block;
     font-size: 50px;
     padding: 25px;
+}
+
+footer {
+    text-align: center;
+    color: #595c5f;
 }
