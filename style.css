@@ -1,7 +1,7 @@
 html body { 
     width: 100%;
     height: 100%;
-    background: url(assets/background.jpg) no-repeat center center fixed; 
+    background: url(steve-harvey-U4wcrDteZ2Y-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,24 +15,22 @@ header {
 
 h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;    
-    color:#192b1c;
-    text-shadow: 2px 2px 12px #333633;
-    font-size: 100px;
+    color: #f7742d;
+    text-shadow: -8px 3px #0b0c0b;
+    font-size: 200px;
     text-align: center;    
 }
 
 h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;    
-    color:#192b1c;
-    text-shadow: 2px 2px 12px #333633;
-    font-size: 50px;
+    color:#f7742d;
+    text-shadow: -8px 3px #0a0a0a;
+    font-size: 75px;
     text-align: center;
 }
 
-#bottomhr {
-    border-color: #177e24;
-    border-width: 3px;
-    max-width: 850px; 
+.buffer {
+    height: 12rem;
 }
 
 /* .buffer {
@@ -52,11 +50,13 @@ nav li {
 }
 
 nav li a {
-    color: #192b1c;
+    color: #f7742d;
+    text-shadow: -5px 3px #0a0a0a;
 }
 
 nav li a:hover {
-    color: #6b2f0c;
+    color: #2187c2;
+    text-shadow: 2px 2px 12px #0a0a0a;
     font-size: 70px;
     transition-duration: 1.5s;
     text-decoration: underline;    
@@ -67,6 +67,12 @@ nav li a:hover {
     font-size: 70px;
 }
 
+#bottomhr {
+    border-color: #4f342d;
+    border-width: 3px;
+    max-width: 850px; 
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -75,6 +81,5 @@ footer {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     text-align: center;
-    color: #595c5f;
-
+    color: #acaeb1;
 }
