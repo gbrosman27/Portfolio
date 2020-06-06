@@ -1,7 +1,14 @@
-html body { 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+html body {
     width: 100%;
     height: 100%;
-    background: url(steve-harvey-U4wcrDteZ2Y-unsplash.jpg) no-repeat center center fixed; 
+    background: url(jay-heike-osvgw7fleHE-unsplash.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,63 +21,62 @@ header {
 }
 
 h1 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;    
-    color: #f7742d;
-    text-shadow: -8px 3px #0b0c0b;
-    font-size: 200px;
-    text-align: center;    
-}
-
-h2 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;    
-    color:#f7742d;
-    text-shadow: -8px 3px #0a0a0a;
-    font-size: 75px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: #4e5052;
+    text-shadow: -1px 5px black;
+    font-size: 100px;
     text-align: center;
 }
 
-.buffer {
-    height: 12rem;
+h2 {
+    font-family: 'Lexend Tera', sans-serif;
+    color: #4e5052;
+    text-shadow: -1px 4px black;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 100px;
 }
 
-/* .buffer {
-    height: 20rem;
-  } */
+.buffer {
+    height: 10rem;
+}
 
 nav {
-    text-align: center;  
+    text-align: right;
+    margin-left: 165px;
 }
 
 nav li {
     list-style: none;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Lexend Tera', sans-serif;
     display: inline-block;
-    font-size: 50px;
-    padding: 25px;
+    font-size: 30px;
+    padding: 5px;
 }
 
 nav li a {
-    color: #f7742d;
-    text-shadow: -5px 3px #0a0a0a;
+    color: #4e5052;
+    text-shadow: -1px 4px black;
 }
 
 nav li a:hover {
-    color: #2187c2;
-    text-shadow: 2px 2px 12px #0a0a0a;
+    color: #1cdbf5dc;
+    text-shadow: -1px 8px 12px black;
     font-size: 70px;
-    transition-duration: 1.5s;
-    text-decoration: underline;    
+    transition-duration: 1s;
+    text-decoration: underline;
 }
 
 #nav_line {
     display: inline-block;
     font-size: 70px;
+    color: #1cdbf5dc;
 }
 
-#bottomhr {
-    border-color: #4f342d;
+hr {
+    border-color: #4e5052;
     border-width: 3px;
-    max-width: 850px; 
+    max-width: 1050px;
 }
 
 footer {
@@ -78,8 +84,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 15px;
     text-align: center;
-    color: #acaeb1;
+    color: #4e5052;
 }
