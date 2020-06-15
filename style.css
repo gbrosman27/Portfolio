@@ -22,7 +22,7 @@ header {
 
 h1 {
     font-family: 'Lexend Tera', sans-serif;
-    color: #4e5052;
+    color: #1df30a;
     text-shadow: -1px 5px black;
     font-size: 100px;
     text-align: center;
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     font-family: 'Lexend Tera', sans-serif;
-    color: #4e5052;
+    color: #1df30a;
     text-shadow: -1px 4px black;
     font-size: 40px;
     text-align: center;
@@ -55,8 +55,8 @@ nav li {
 }
 
 nav li a {
-    color: #4e5052;
-    text-shadow: -1px 4px black;
+    color: #cc7d2e;
+    text-shadow: -2px 2px black;
 }
 
 nav li a:hover {
@@ -70,11 +70,11 @@ nav li a:hover {
 #nav_line {
     display: inline-block;
     font-size: 70px;
-    color: #1cdbf5dc;
+    color: #1cdcf5;
 }
 
 hr {
-    border-color: #4e5052;
+    border-color: #5f3f1e;
     border-width: 3px;
     max-width: 1050px;
 }
@@ -87,5 +87,6 @@ footer {
     font-family: 'Lexend Tera', sans-serif;
     font-size: 15px;
     text-align: center;
-    color: #4e5052;
+    color: #1df30a;
+    text-shadow: -2px 2px black;
 }
