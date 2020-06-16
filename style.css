@@ -5,10 +5,10 @@
     align-items: center;
 }
 
-html body {
-    width: 100%;
-    height: 100%;
-    background: url(jay-heike-osvgw7fleHE-unsplash.jpg) no-repeat center center fixed;
+body {
+    /* width: 100%;
+    height: 100%; */
+    background: url(jay-heike-osvgw7fleHE-unsplash.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,13 +37,8 @@ h2 {
     margin-left: 100px;
 }
 
-.buffer {
-    height: 10rem;
-}
-
 nav {
-    text-align: right;
-    margin-left: 165px;
+    text-align: center;
 }
 
 nav li {
@@ -51,7 +46,7 @@ nav li {
     font-family: 'Lexend Tera', sans-serif;
     display: inline-block;
     font-size: 30px;
-    padding: 5px;
+    padding: 15px;
 }
 
 nav li a {
@@ -64,6 +59,7 @@ nav li a:hover {
     text-shadow: -1px 8px 12px black;
     font-size: 70px;
     transition-duration: 1s;
+    letter-spacing: 5px;
     text-decoration: underline;
 }
 
@@ -77,6 +73,12 @@ hr {
     border-color: #5f3f1e;
     border-width: 3px;
     max-width: 1050px;
+}
+
+.skills{
+    color: #1cdbf5dc;
+    font-size: 20px;
+    
 }
 
 footer {
