@@ -1,14 +1,14 @@
-.flex-container{
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-body {
-    /* width: 100%;
-    height: 100%; */
-    background: url(jay-heike-osvgw7fleHE-unsplash.jpg) no-repeat center fixed;
+body, html {
+    width: 100%;
+    height: 100%;
+    background: url(apisss-o-HL4itDvzWC4-unsplash.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,7 +20,7 @@ header {
     margin: 10px;
 }
 
-h1 {
+/* h1 {
     font-family: 'Lexend Tera', sans-serif;
     color: #1df30a;
     text-shadow: -1px 5px black;
@@ -35,7 +35,7 @@ h2 {
     font-size: 40px;
     text-align: center;
     margin-left: 100px;
-}
+} */
 
 nav {
     text-align: center;
@@ -67,12 +67,13 @@ nav li a:hover {
     display: inline-block;
     font-size: 70px;
     color: #1cdcf5;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 hr {
     border-color: #5f3f1e;
     border-width: 3px;
-    max-width: 1050px;
+    max-width: 1000px;
 }
 
 .skills{
@@ -86,9 +87,43 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    font-family: 'Lexend Tera', sans-serif;
-    font-size: 15px;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    font-size: 18px;
     text-align: center;
-    color: #1df30a;
+    color: #486645;
     text-shadow: -2px 2px black;
 }
+
+body {
+    /* background: #111; */
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Glow Effect */
+  h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  h2 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+  
+  
+  @keyframes neonGlow {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 22px rgba(255, 255, 255, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 60px rgba(66, 220, 219, 0.8), 0 0 80px rgba(66, 220, 219, 0.5), 0 0 100px rgba(66, 220, 219, 0.5), 0 0 140px rgba(66, 220, 219, 0.5), 0 0 200px rgba(66, 220, 219, 0.5);
+    }
+    100% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5);
+    }
+  }
+  
