@@ -1,13 +1,15 @@
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
 }
+
 
 body, html {
     width: 100%;
     height: 100%;
+    margin: auto 0;
     background: url(apisss-o-HL4itDvzWC4-unsplash.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,80 +19,6 @@ body, html {
 
 header {
     padding: 1rem;
-}
-
-/* h1 {
-    font-family: 'Lexend Tera', sans-serif;
-    color: #1df30a;
-    text-shadow: -1px 5px black;
-    font-size: 100px;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Lexend Tera', sans-serif;
-    color: #1df30a;
-    text-shadow: -1px 4px black;
-    font-size: 40px;
-    text-align: center;
-    margin-left: 100px;
-} */
-
-nav {
-    text-align: center;
-}
-
-nav li {
-    list-style: none;
-    font-family: 'Lexend Tera', sans-serif;
-    display: inline-block;
-    font-size: 30px;
-    padding: 15px;
-}
-
-nav li a {
-    color: #cc7d2e;
-    text-shadow: -2px 2px black;
-}
-
-nav li a:hover {
-    color: #1cdbf5dc;
-    text-shadow: -1px 8px 12px black;
-    font-size: 40px;
-    transition-duration: 1s;
-    letter-spacing: 5px;
-    text-decoration: underline;
-}
-
-#nav_line {
-    display: inline-block;
-    font-size: 70px;
-    color: #1cdcf5;
-    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-hr {
-    border-color: #5f3f1e;
-    border-width: 3px;
-    max-width: 1000px;
-}
-
-.skills{
-    color: #1cdbf5dc;
-    font-size: 20px;
-    
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-family: "Dosis", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: #486645;
-    text-shadow: -2px 2px black;
 }
 
 body {
@@ -125,4 +53,89 @@ body {
       text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5);
     }
   }
+
+  /* header children styles for small screens */
+  @media only screen and (max-width: 650px){
+    h1 {
+        font-size: 4em;        
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
+
+.mainNav {
+    text-align: center;
+}
+
+.mainNav li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.mainNav li a {
+    color: #cc7d2e;
+    text-shadow: -2px 2px black;
+}
+
+.mainNav li a:hover {
+    color: #1cdbf5dc;
+    text-shadow: -1px 8px 12px black;
+    font-size: 40px;
+    transition-duration: 1s;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+#nav_line {
+    display: inline-block;
+    font-size: 70px;
+    color: #1cdcf5;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* Nav styles for small screens. */
+@media only screen and (max-width: 650px){
+    .mainNav li {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .mainNav li a:hover{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #nav_line {
+        font-size: 20px;
+    }
+}
+
+hr {
+    border-color: #5f3f1e;
+    border-width: 3px;
+    max-width: 1000px;
+}
+
+.skills{
+    color: #1cdbf5dc;
+    font-size: 20px;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #486645;
+    text-shadow: -2px 2px black;
+}
   
