@@ -87,7 +87,7 @@ body {
     color: #1cdbf5dc;
     text-shadow: -1px 8px 12px black;
     font-size: 40px;
-    transition-duration: 1s;
+    transition-duration: .5s;
     letter-spacing: 5px;
     text-decoration: underline;
 }
