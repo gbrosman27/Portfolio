@@ -37,11 +37,11 @@ body {
   }
 
   h2 {
-        text-transform: uppercase;
-        color: white;
-        font-size: 2em;
-        text-align: center;
-        animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
     }
   
   
@@ -64,6 +64,7 @@ body {
         font-size: 1em;
     }
 }
+
 
 .mainNav {
     text-align: center;
@@ -128,7 +129,7 @@ hr {
 }
 
 footer {
-    position: fixed;
+    align-self: end;
     left: 0;
     bottom: 0;
     width: 100%;
