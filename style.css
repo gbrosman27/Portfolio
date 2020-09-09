@@ -84,7 +84,7 @@ body {
 }
 
 .mainNav li a {
-    color: #cc7d2e;
+    color: #c44b05;
     text-shadow: -2px 2px black;
 }
 
@@ -92,7 +92,7 @@ body {
     color: #1cdbf5dc;
     text-shadow: -1px 8px 12px black;
     font-size: 40px;
-    transition-duration: .5s;
+    transition-duration: .25s;
     letter-spacing: 5px;
     text-decoration: underline;
 }
@@ -100,7 +100,7 @@ body {
 #nav_line {
     display: inline-block;
     font-size: 70px;
-    color: #1cdcf5;
+    color: #07dcf8;
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 hr {
-    border-color: #313133;
+    border-color: #c44b05;
     border-width: 3px;
     max-width: 1000px;
 }
